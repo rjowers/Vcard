@@ -1,0 +1,49 @@
+@import "bulma";
+
+html{
+  background-color: #F3F3F3;
+}
+
+div.container {
+  margin-right: 0;
+
+}
+.title {
+  padding-top: 50px;
+  height: 200px;
+
+  //margin-right: 0;
+
+
+  background-color: #1D1D1D;
+  color: white;
+  text-align: center;
+  font-size: 5em;
+}
+
+.columns{
+  font-size: 1em;
+  margin-top: 50px;
+  margin-left: 10%;
+
+  h1{
+    padding-bottom: 20px;
+    font-size: 2em;
+  }
+
+  a{
+    color: black;
+  }
+  li {
+    color: #8B8B8B;
+  }
+  span{
+    color: #82B2B2;
+  }
+  img{
+    width: 200px;
+    border-radius: 50%;
+  }
+
+
+}
