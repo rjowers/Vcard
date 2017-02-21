@@ -3,12 +3,12 @@ import token from "./token.js"
 
 
 
-    function getData(data, callback) {
+function getData(data, callback) {
     $.ajax({
         url: `https://api.github.com/users/rjowers`,
         dataType: "json",
         headers: {
-        "Authorization": `token ${token}`
+            "Authorization": `token ${token}`
         },
         data: {
             q: data
@@ -23,8 +23,8 @@ getData();
 
 function appendData(data) {
     console.log(data)
-        $(".info").append(
-            `
+    $(".info").append(
+        `
             <div class="columns">
             <div class="column">
             <ul>
@@ -43,8 +43,6 @@ function appendData(data) {
             <img src="${data.avatar_url}"/>
             </div>
             </div>
-            
+
             `)
-
-
 }
